@@ -3,7 +3,7 @@ import Trivia from "./components/Trivia";
 import "./App.css";
 
 function App() {
-  const [questionNumber, setQuestionNumber] = useState(20);
+  const [questionNumber, setQuestionNumber] = useState(1);
   const [stop, setStop] = useState(false);
   const [isWin, setIsWin] = useState(false);
   const [winningAmount, setWinningAmount] = useState(0);
