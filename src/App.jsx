@@ -507,7 +507,7 @@ function App() {
           ) : (
             <>
               <div className="top">
-                <div className="timer">30</div>
+                {/* <div className="timer">30</div> */}
               </div>
               <div className="bottom">
                 <Trivia
